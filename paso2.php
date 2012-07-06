@@ -45,7 +45,7 @@ if (isset($_POST['iniciar'])){
 
 	}
 	
-	//$obj->removeDirectory('tmp');
+	$obj->removeDirectory('tmp');
 	session_destroy();
 	
 }else{
